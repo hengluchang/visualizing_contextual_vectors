@@ -1,0 +1,4 @@
+allennlp
+sklearn
+matplotlib
+numpy
