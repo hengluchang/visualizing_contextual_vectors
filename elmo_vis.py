@@ -109,11 +109,12 @@ if __name__ == "__main__":
     plants[4] = "Most of the plants will die without water"
 
     words = {
-        # "bank": banks,
+        "bank": banks,
         "work": works,
-        # "plant": plants
+        "plant": plants
     }
 
+    # contextual vectors for ELMo layer 1 and 2
     for layer in [1, 2]:
         for word, sentences in words.items():
             print("visualizing word {} using ELMo layer {}".format(word, layer))
