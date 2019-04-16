@@ -1,5 +1,5 @@
 # visualizing_contextual_vectors
-Visualizing ELMo Contextual Vectors for Word Sense Disambiguation
+Visualizing ELMo Contextual Vectors for Word Sense Disambiguation. Check out the medium blog post [here](https://towardsdatascience.com/visualizing-elmo-contextual-vectors-94168768fdaa)!
 
 # Pre-reqs
 Python 3.6
