@@ -22,6 +22,7 @@ class Elmo:
 
 def dim_reduction(X, n):
     pca = PCA(n_components=n)
+    print("size of X: {}".format(X.shape))
     results = pca.fit_transform(X)
     print("size of reduced X: {}".format(results.shape))
 
